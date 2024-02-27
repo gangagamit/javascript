@@ -43,6 +43,21 @@ function uppercase(str) {
 Example string : 'Web Development Tutorial'
 Expected Output : 'Development'*/
 {
-
+  Longword( 'Web Development Tutorial'); 
+  function Longword(str){ 
+      let words = str.split(' '); 
+      console.log(words); 
+      let maxLength = 0; 
+      let longword = ""; 
+     
+      for (let i = 0; i < words.length; i++) 
+       { 
+        if (words[i].length > maxLength) { 
+          maxLength = words[i].length; 
+          longword = words[i]; 
+        } 
+      } 
+      console.log(longword); 
+  }
 }
 /*5. Write a JavaScript function that checks whether a number is perfect.*/
