@@ -41,8 +41,8 @@ let person1 = {
     lastName  : 'Gavit',
     age       : '25',
     address   : {
-        'city': 'surat',
-        'state': 'Gujarat'
+        city  : '208 yogi chowk surat',
+        state : 'Gujarat'
     },
     hobbies   :['reading','music','playing cricket'],
     salary    : function (){
@@ -51,3 +51,5 @@ let person1 = {
 };
 console.log(person1);
 console.log(person1.salary());
+console.log(person['hobbies']['2']);
+console.log(person.address.city);
