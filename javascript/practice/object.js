@@ -53,3 +53,21 @@ console.log(person1);
 console.log(person1.salary());
 console.log(person['hobbies']['2']);
 console.log(person.address.city);
+
+
+//class
+
+
+class person2 {
+    constructor(name){
+        this.name = name;
+    }
+    display = function(){
+        return "Hello" + this.name;
+    }
+};
+
+let obj = new person2('john');
+console.log(obj);
+console.log(obj.display);
+console.log(obj.display()); //hello john
