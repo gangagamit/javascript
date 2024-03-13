@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.stopwatch{
+    text-align: center;
+    margin-left: 26%;
+    width: 400px;
+    border: 2px solid white;
+    flex-direction: row;
+}
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h2{
+    font-size: 30px;
+}
+button{
+    width: 110px;
+    height: 30px;
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+button:hover{
+    border: 2px solid white;
+}
+/* .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+} */

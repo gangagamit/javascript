@@ -8,11 +8,11 @@
     align-items: center;
 }
 .counter{
-    height: 200px;
-    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+}
+p{
     font-size: 2.2rem;
-    background-color: #6b33d4;
 }
