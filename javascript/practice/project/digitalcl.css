@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,.time,.left,.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digital-clock,.time,.right,.right-top,.right-bottom{
+    position: relative;
+}
+body{
+    min-height: 70vh;
+    background-color: #211d36;
+}
+.digital-clock{
+    width: 400px;
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(10, 15, 25, 0.9);
+}
+#hours{
+    font-size: 6rem;
+    font-weight: 500;
+    padding: 20px;
+    line-height: 100px;
+    background:-webkit-linear-gradient(90deg,purple,white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.right{
+    flex-direction: column;
+}
+#dot{
+    font-size: 3rem;
+    transform: translateY(-3px);
+    color: gray;
+}
+#minute{
+    font-size: 5rem;
+    font-weight: 500;
+    padding: 20px;
+    margin-left: 10px;
+    line-height: 100px;
+    /* transform: translateY(8px); */
+    background:-webkit-linear-gradient(90deg,royalblue,white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+/* .digital-clock::before{
+    content: '';
+    position: absolute;
+    background:linear-gradient(40deg,orange,red,blue,green,);
+    z-index: -1;
+    filter: blur(20px);
+    background-size: 200% 200%;
+    top: -5px;
+    right: -5px;
+    left: -5px;
+    bottom: -5px;
+} */
+#right-bottom{
+    margin-left: 20px;
+    transform: translateY(-20px);
+}
+#period,#second{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#period{
+    color: orangered;
+}
+#second{
+    color: #fff;
+}
