@@ -1,18 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    padding: 50px 200px;
 }
-.word-counter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1{
+    text-align: center;
+    background-color: royalblue; 
+    color: white;
+    padding: 10px;
+    margin: 0px;
 }
-.counter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+
+#textbox{
+    width: 99%;
+    border-color: #0067B0;
 }
 p{
-    font-size: 2.2rem;
+    text-align: center;
+    background-color: #0067B0;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0px;
 }

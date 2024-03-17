@@ -114,66 +114,76 @@ let a = 50;
 // }
 // 6)
 
-{
-    let input = 10;
-    switch(input)
-    {
+// {
+//     let input = 10;
+//     switch(input)
+//     {
 
-        case 1 :
-            let a = 2;
-            let b = 3;
-            let c = a + b;
-            document.write(c);
-            break;
+//         case 1 :
+//             let a = 2;
+//             let b = 3;
+//             let c = a + b;
+//             document.write(c);
+//             break;
 
-        case 2 :
-            let A = 2;
-            let B = 3;
-            let C = A - B;
-            document.write(C);
-            break;
-        case 3 :
-            let x = 2;
-            let y = 3;
-            let z = x / y;
-            document.write(z);
-            break;
+//         case 2 :
+//             let A = 2;
+//             let B = 3;
+//             let C = A - B;
+//             document.write(C);
+//             break;
+//         case 3 :
+//             let x = 2;
+//             let y = 3;
+//             let z = x / y;
+//             document.write(z);
+//             break;
         
-        case 4 :
-            let X = 2;
-            let Y = 3;
-            let Z = X % Y;
-            document.write(Z);
-            break;
-        case 5 :
-            let g = 2;
-            ++g;
-            document.write(g);
-            break;
-        case 6 :
-            let h = 3;
-            h++;
-            document.write(h);
-            break;
-        case 7 :
-            let i = 8;
-            --i;
-            document.write(i);
-            break;
-        case 8 :
-            let j = 9;
-            j--;
-            document.write(j);
-            break;
-        case 9 :
-            let k = 4;
-            let l = 3;
-            let m = k ** l;
-            document.write(m);
-            break;
-        default :
-            document.write("wrong input");
+//         case 4 :
+//             let X = 2;
+//             let Y = 3;
+//             let Z = X % Y;
+//             document.write(Z);
+//             break;
+//         case 5 :
+//             let g = 2;
+//             ++g;
+//             document.write(g);
+//             break;
+//         case 6 :
+//             let h = 3;
+//             h++;
+//             document.write(h);
+//             break;
+//         case 7 :
+//             let i = 8;
+//             --i;
+//             document.write(i);
+//             break;
+//         case 8 :
+//             let j = 9;
+//             j--;
+//             document.write(j);
+//             break;
+//         case 9 :
+//             let k = 4;
+//             let l = 3;
+//             let m = k ** l;
+//             document.write(m);
+//             break;
+//         default :
+//             document.write("wrong input");
 
-    }
-}
+//     }
+// }
 
+// function compare(){
+//     let a = 2;
+//     let b = 2.0;
+//     if(a===b){
+//         console.log("true");
+//     }
+//     else{
+//         console.log("flase");
+//     }
+// }

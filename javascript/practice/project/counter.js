@@ -1,11 +1,15 @@
-{
-       
-function wordsLen(str) { 
-    const array = str.trim().split(/\s+/); 
-    return array.length; 
-} 
-  
-const str = "lorem  wjdyuiwqd qwduhwqiudbjsakdsjadjh wqjhjdgqydw qysgsyjsbx  wjdh asdh wshds hasv"; 
-  
-console.log("Word count:" ,wordsLen(str));
-}
+let textbox = document.getElementById("textbox");
+
+textbox.addEventListener('input',function(){
+    let text = this.value;
+    let char = text.length;
+    document.getElementById("char").innerHTML=char;
+    text = text.trim();
+
+    let words = text.split(" ");
+    let cleanList = words.filter(function(elm){
+        return elm != "";
+    });
+    // console.log(cleanList);
+    document.getElementById("word").innerHTML = cleanList.length;
+});
