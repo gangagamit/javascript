@@ -1,0 +1,34 @@
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conatiner{
+    height: 400px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.conatiner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.conatiner i{
+    font-size: 2.5rem;
+    color: #fff;
+    opacity: 0;
+    position: absolute;
+    top:70%;
+    left: 49%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: all ease 0.4s;
+}

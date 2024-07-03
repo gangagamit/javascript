@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> javascript variable</h1>
+    <p id="car"></p>
+    <script>
+            let carName;
+            document.getElementById("car").innerHTML= carName;
+
+            {
+                let x = 2, y=5,z=15;
+                console.log(z);
+            }
+
+            // let x = 2; can not be access outside the block
+            // console.log(x);
+            // {
+            //     var y = 10;
+            //     console.log(y);
+            // }
+            // {
+            //     const y = 10;
+            //     console.log(y);
+            // }
+            // const y = 15;
+            // console.log(y);
+            
+
+            // const x= 2;//error
+            // var x = 2;//error
+
+            {
+                // let x = 2;//error
+                // const x = 2;//error
+            }
+            {
+                // const y = 3;//error
+                // const y = 5;//error
+            }
+            {
+                // const x = 5;
+                // x = 5;
+                // var x= 5;
+                // let x = 5;
+                // const x = 5;
+            }
+//for-of loop in javascript 
+//using for String and Array
+            // let str = "practice";
+
+            // let size = 0;
+
+            // for(let val of str){
+            //     console.log("val = ", val);
+            //     size++;
+            // }
+            // console.log("size = ", size);
+
+
+//for-in loop in javascript
+//using for object and Array
+//key and value to be accesses
+
+            const student = {
+                name:"Ganga",
+                age:"23",
+                cgpa:"7.8",
+                isPass:"true"
+            }
+
+            for(let key in student){
+                console.log(key,":",student[key]);
+            }
+    </script>
+</body>
+</html>
